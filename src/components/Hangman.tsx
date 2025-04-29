@@ -78,7 +78,7 @@ const Hangman = ({ words }: HangmanProps) => {
         <div className="mt-4">
           <p className="text-center text-2xl">
             {Array.from({ length: MAX_WRONG - wrongGuesses }).map((_, i) => (
-              <span key={i}>❤️</span>
+              <span key={i}>💖 </span>
             ))}
           </p>
           <img src={`miku-0${wrongGuesses + 1}.png`} width={300} />
