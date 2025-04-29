@@ -58,7 +58,7 @@ const Hangman = ({words}: HangmanProps) => {
 
   return (
     <div className='flex flex-col items-center space-y-6 p-4'>
-      <h1 className='text-3xl font-bold'>Try Out Sabung Wota</h1>
+      <h1 className='text-3xl font-bold'>Teka Teki Wota</h1>
 
       <div className='text-2xl'>
         {renderWord()}

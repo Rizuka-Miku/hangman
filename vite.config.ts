@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/tryout-sabung-wota/',
+  base: '/teka-teki-wota/',
   plugins: [
     react(),
     tailwindcss()
