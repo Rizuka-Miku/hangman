@@ -46,5 +46,58 @@ export const songs = [
     {
         "title": "Tidak boleh pelukan", 
         "hint": ['Merupakan lagu coupling', 'Sinka menjadi center di lagu ini', 'lagu coupling dari mae shika mukane']
+    },
+    {
+        "title": "Dibanding Kemarin Semakin Suka",
+        "hint": ['Merupakan lagu di dalam album Pareo wa emerald', 'Lagu ini dibawakan pada event ramadhan kemarin']
+    },
+    {
+        "title": "Pertahanan akan cinta",
+        "hint": ['lagu dari setlist boku no taiyou', 'Lagu ini dibawakan oleh 3 orang']
+    }, 
+    {
+        "title": "Mawar Natal Musim Panas",
+        "hint": ['Lagu ini dibawakan 4 orang', 'Merupakan lagu dalam setlist RKJ']
+    },
+    {
+
+        "title": "Musim Panas Sounds Good",
+        "hint": ['Merupakan Single JKT48', 'Lagu ini MV nya bertemakan pantai', 'Lagu ini mempunyai versi bahasa inggris']
+    }, 
+    {
+        "title": "Joan of Arc di dalam Cermin",
+        "hint": ['Dibawakan oleh 5 orang', 'Center lagu ini membawa bendera', 'Kinal menjadi center di lagu ini']
+    },
+    {
+        "title": "Pelaut yang Melihat Mimpi di tengah Badai",
+        "hint": ['Merupakan lagu encore', 'Isshou lagu ini adalah kaos jeketi dengan celana pendek']
+    },
+    {
+        "title": "New Ship",
+        "hint": ['Merupakan lagu dalam album mahagita 2', 'Mempunyai isshou lucu seperti pelaut', 'Melody ada di MV lagu ini versi AKB48']
+    },
+    {
+        "title": "Kaca berbentuk I Love You",
+        "hint": ['merupakan lagu dari setlist aktif', 'lagu ini dibawakan oleh 4 orang', 'lagu ini merupakan lagu dari setlist Fly, Team T!']
+    },
+    {
+        "title": "After Rain",
+        "hint": ["Lagu ini mempunyai lyric video", "Lagu ini mempunyai chant video tutorial", "Lagu ini baru - baru ini viral"]
+    },
+    {
+        "title": "So Long",
+        "hint": ["Lagu ini pernah dibawakan dalam setlist banzai", 'MV lagu ini bertemakan musim dingin', 'Lagu ini merupakan lagu graduation Jessica Veranda']
+    },
+    {
+        "title": "Jika Aku Dipelukmu",
+        "hint": ['Lagu ini dibawakan oleh 3 orang', 'Lagu ini pernah dibawakan 6 orang pada konser KIII VS KIII', 'Lagu ini memakai kursi sebagai properti']
+    },
+    {
+        "title": "To be Continued",
+        "hint": ['Lagu ini merupakan lagu terakhir dari sebuah setlist', 'Lagu ini merupakan lagu dalam setlist saka agari']
+    },
+    {
+        "title": "Aishiteraburu",
+        "hint": ["Lagu ini berada di album suzukake nancara"]
     }
 ];
