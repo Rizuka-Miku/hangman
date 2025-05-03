@@ -1,94 +1,38 @@
 export const songs = [
-    // === AKB48 COVERS (Indonesian Versions) ===
-    { title: "Heavy Rotation", hint: ["Debut single JKT48"] },
-    { title: "Koisuru Fortune Cookie", hint: ["Viral dengan dance challenge"] },
-    { title: "Ponytail to Shushu", hint: ["Lagu ceria tentang rambut ponytail", "Dari setlist 'Party ga Hajimaru yo'"] },
-    { title: "Baby Baby Baby", hint: ["Lagu digital pertama JKT48", "Dinyanyikan oleh member generasi 1"] },
-    { title: "Gingham Check", hint: ["Koreografi 'lari-lari' ikonik", "Single musim panas AKB48"] },
-    { title: "UZA", hint: ["Beat intense dan koreo 'gila'", "Kostum hitam-merah"] },
-    { title: "Kaze wa Fuiteiru", hint: ["Lagu tentang angin", "Dari setlist 'Team J 2nd Stage'"] },
-    { title: "Flying Get", hint: ["Lagu election AKB48", "Tema 'gold rush'"] },
-    { title: "Manatsu no Sounds Good", hint: ["Single musim panas", "Konsep pantai"] },
-    { title: "Beginner", hint: ["Lagu dark dengan koreo agresif", "Dibawakan JKT48 di konser"] },
-    { title: "Everyday Kachuusha", hint: ["Lagu dengan tepuk tangan ikonik", "Tema festival Jepang"] },
-    { title: "Halloween Night", hint: ["Single bertema Halloween", "Kostum hantu/labirin"] },
-    { title: "Kimi no Hohoemi o Yume ni Miru", hint: ["Ballad slow", "Judul berarti 'aku bermimpi senyumanmu'"] },
-    { title: "Love Trip", hint: ["Single musim panas", "Tema perjalanan cinta"] },
-    { title: "High Tension", hint: ["Lagu super ceria", "Tarian energik"] },
-    { title: "11gatsu no Anklet", hint: ["Lagu winter AKB48", "Dibawakan JKT48 di konser spesial"] },
-    { title: "Teacher Teacher", hint: ["Tema sekolah/sexy", "Dari album 'JOY KICK! TEARS'"] },
-    { title: "NO WAY MAN", hint: ["Lagu dengan koreo 'robotik'", "Single terakhir beberapa member"] },
-    { title: "Sustainable", hint: ["Lagu tentang lingkungan", "Dibawakan JKT48 di acara TV"] },
-    { title: "Jiwaru DAYS", hint: ["Lagu ceria tentang hari yang cerah", "Dari setlist 'Team KIII 3rd Stage'"] },
-
-    // === ORIGINAL JKT48 SONGS ===
-    { title: "Rapsodi", hint: ["Lagu orisinal pertama JKT48", "Tema fantasi epik"] },
-    { title: "Flying High", hint: ["Lagu tema anime 'Battle Through the Heavens'", "Nuansa orkestra"] },
-    { title: "Darashinai Aishikata", hint: ["Ballad melancholic", "Judul berarti 'cara ceroboh untuk mencinta'"] },
-    { title: "Cara Ceroboh untuk Mencinta", hint: ["Versi Indonesia dari 'Darashinai Aishikata'", "Lagu slow"] },
-    { title: "Dirimu Melody", hint: ["Lagu tribute untuk Melody", "Dinyanyikan oleh member generasi 1"] },
-    { title: "Bukan PHO", hint: ["Lagu tentang persahabatan", "Dari acara varietas JKT48"] },
-    { title: "Musim Panas Sounds Good", hint: ["Adaptasi Indonesia dari 'Manatsu no Sounds Good'", "Konsep pantai"] },
-    { title: "JKT48 Festival", hint: ["Lagu tema event JKT48", "Tema pesta"] },
-    { title: "Hanya Lihat ke Depan", hint: ["Lagu motivasi", "Dari setlist 'Team T 2nd Stage'"] },
-    { title: "Ponytail to Shu-shu", hint: ["Versi Indonesia dari 'Ponytail to Shushu'", "Lagu ceria"] },
-
-    // === THEATER/STAGE SONGS ===
-    { title: "Aitakatta", hint: ["Lagu pembuka setlist 'Team J 1st Stage'", "Lagu tentang kerinduan"] },
-    { title: "Skirt, Hirari", hint: ["Lagu ikonik dari setlist 'Team J 1st Stage'", "Tarian dengan gerakan skirt"] },
-    { title: "Hissatsu Teleport", hint: ["Lagu cepat dari 'Team KIII 1st Stage'", "Tema ninja"] },
-    { title: "Seifuku ga Jama o Suru", hint: ["Judul berarti 'seragam menghalangi'", "Dari setlist 'Team J 2nd Stage'"] },
-    { title: "Kimi no Koto ga Suki Dakara", hint: ["Ballad romantis", "Dari 'Team J 3rd Stage'"] },
-    { title: "Saikou ka yo", hint: ["Lagu ceria", "Dari 'Team T 1st Stage'"] },
-    { title: "Temodemo no Namida", hint: ["Lagu sedih", "Dari 'Team KIII 2nd Stage'"] },
-    { title: "Inochi no Tsukaimichi", hint: ["Lagu filosofis", "Dari 'Team T 3rd Stage'"] },
-    { title: "Return Match", hint: ["Lagu tentang comeback", "Dari 'Team J 4th Stage'"] },
-    { title: "Oogoe Diamond", hint: ["Lagu energik", "Dari 'Team KIII 4th Stage'"] },
-
-    // === SUB-UNIT & SOLO SONGS ===
-    { title: "Hikaeme I Love You", hint: ["Lagu unit trio", "Judul berarti 'katakan I love you pelan-pelan'"] },
-    { title: "Tobenai Agehachou", hint: ["Lagu unit sedih", "Judul berarti 'kupu-kupu yang tak bisa terbang'"] },
-    { title: "Glass no I LOVE YOU", hint: ["Lagu unit dari 'Team J 3rd Stage'", "Tema cinta tak terbalas"] },
-    { title: "Nage Kiss de Uchi Otose", hint: ["Lagu unit ceria", "Dari 'Team KIII 3rd Stage'"] },
-    { title: "Rider", hint: ["Lagu unit edgy", "Dibawakan oleh sub-unit 'JKT48 Dangdut'"] },
-    { title: "Shinkirou", hint: ["Lagu unit misterius", "Dari 'Team T 2nd Stage'"] },
-    { title: "Tsundere", hint: ["Lagu unit tentang tipe tsundere", "Dari 'Team J 5th Stage'"] },
-    { title: "Kuroi Tenshi", hint: ["Lagu unit dark", "Dibawakan oleh member spesifik"] },
-    { title: "Junai no Crescendo", hint: ["Lagu unit romantis", "Dari 'Team KIII 5th Stage'"] },
-    { title: "Yokaze no Shiwaza", hint: ["Lagu unit melancholic", "Dari 'Team T 4th Stage'"] },
-
-    // === ELECTION & EVENT SONGS ===
-    { title: "Kamikyokutachi", hint: ["Lagu election JKT48", "Tema 'dewa lagu'"] },
-    { title: "Kibouteki Refrain", hint: ["Lagu election penuh harapan", "Dinyanyikan oleh senbatsu"] },
-    { title: "Kimi wa Melody", hint: ["Lagu tribute untuk generasi 1", "Dibawakan di konser kelulusan"] },
-    { title: "Sayonara Crawl", hint: ["Lagu perpisahan", "Dinyanyikan saat graduasi member"] },
-    { title: "Eien Pressure", hint: ["Lagu election bertempo cepat", "Tema tekanan abadi"] },
-    { title: "So Long", hint: ["Lagu graduasi AKB48", "Dibawakan JKT48 versi Indonesia"] },
-    { title: "Kimi no Tame ni Boku wa", hint: ["Lagu untuk fans", "Dibawakan di handshake event"] },
-    { title: "First Rabbit", hint: ["Lagu tentang kelinci", "Dari event spesial JKT48"] },
-    { title: "Gomen ne, SUMMER", hint: ["Lagu musim panas", "Dibawakan di konser outdoor"] },
-
-    // === DEEP CUTS & RARITIES ===
-    { title: "Seventeen", hint: ["Populer di kalangan wota karbit", "Dibawakan JKT48V"] },
-    { title: "Kimi to Niji to Taiyou to", hint: ["Lagu tentang pelangi", "Dari acara TV JKT48"] },
-    { title: "Korogaru Ishi ni Nare", hint: ["Lagu motivasi AKB48", "Dibawakan JKT48 di konser"] },
-    { title: "Kimi no C/W", hint: ["Lagu sisi B (coupling)", "Hanya dibawakan live"] },
-    { title: "Yume no Kawa", hint: ["Lagu tentang sungai mimpi", "Dari setlist teater langka"] },
-    { title: "Hatsukoi Dorobou", hint: ["Lagu tentang pencuri cinta pertama", "Dibawakan di request hour"] },
-    { title: "Kimi wa Pegasus", hint: ["Lagu tentang kuda terbang", "Dari event spesial"] },
-    { title: "Yokubomono", hint: ["Lagu tentang keserakahan", "Dari 'Team KIII 6th Stage'"] },
-    { title: "Kimi no Senaka", hint: ["Lagu tentang punggung seseorang", "Dari setlist teater"] },
-    { title: "Yume e no Route", hint: ["Lagu tentang rute ke mimpi", "Dibawakan di konser kecil"] },
-
-    // === FUN & SILLY SONGS ===
-    { title: "Dareka no Tame ni", hint: ["Lagu tentang berkorban untuk seseorang", "Dinyanyikan di acara charity"] },
-    { title: "Honehone Waltz", hint: ["Lagu dengan tarian tulang", "Dari setlist teater"] },
-    { title: "Miniskirt no Yousei", hint: ["Lagu tentang peri miniskirt", "Dari 'Team J 6th Stage'"] },
-    { title: "Nusumareta Kuchibiru", hint: ["Lagu tentang ciuman yang dicuri", "Dari setlist teater"] },
-    { title: "Scandalous ni Ikou", hint: ["Lagu tentang skandal", "Dibawakan oleh unit spesial"] },
-    { title: "Tabidachi no Toki", hint: ["Lagu tentang perjalanan", "Dinyanyikan saat graduasi"] },
-    { title: "Utsukushii Inazuma", hint: ["Lagu tentang petir indah", "Dari setlist langka"] },
-    { title: "Wink wa Sankai", hint: ["Lagu tentang kedipan mata", "Dibawakan di event spesial"] },
-    { title: "Yobisute Fantasy", hint: ["Lagu fantasi", "Dari 'Team T 5th Stage'"] },
-    { title: "Zetsumetsu Kurokami Shoujo", hint: ["Lagu tentang gadis rambut hitam", "Dari setlist teater"] },
+    {
+        "title": "Palu Keberanian",
+        "hint": ['lagunya diawali dengan kick dan clap', 'Isshounya isshou penambang', 'M01 dari setlist Team J']
+    },
+    {
+        "title": "Di Bawah Langit Berwarna Sakura",
+        "hint": ['Salah satu lagu dalam album mahagita', 'Pernah dibawakan oleh JKT48 Accoustic', 'Pernah dibawakan oleh Sheila & The upmost ft JKT48 Accoustic']
+    },
+    {
+        "title": "Sweet and Bitter",
+        "hint": ['Merupakan salah satu coupling song dari single JKT48','MV Bertemakan salju', 'Coupling song rapsodi']
+    },
+    {
+        "title": "Balada Serangga",
+        "hint": ['Lagu ini dinyanyikan oleh 1 orang', 'Beby pernah membawakan lagu ini', 'Lagu ini Identik dengan Sisca']
+    },
+    {
+        "title": "Cara Ceroboh Untuk Mencinta",
+        "hint": ['Dibawakan oleh senbatsu management', 'Merupakan coupling song #Sukinanda (di AKB)', 'single yang muncul saat pandemi']
+    },
+    {
+        "title": "Aku Sangat Suka",
+        "hint": ['Merupakan Lagu sebelum encore', 'Lagu ini merupakan lagu dari setlist yang aktif saat ini']
+    },
+    {
+        "title": "Pergi Untuk Bertemu",
+        "hint": ['Merupakan lagu dari setlist team KIII', 'Merupakan lagu sebelum encore', 'Pernah dibawakan di Nadila Special Graduation Concert']
+    },
+    {
+        "title": "Bersama Kamu Pelangi dan Mentari",
+        "hint": ['Lagu yang berada di dalam album Joy Kick Tears', 'Lagu ini mempunyai lyric video']
+    },
+    {
+        "title": "Relax",
+        "hint": ['Lagu ini dibawakan oleh 3 orang', 'Lagu ini merupakan lagu benefit dari top 3 sousenkyou', 'Lagu ini dibawakan dalam setlist Fly! Team T']
+    }
 ];
