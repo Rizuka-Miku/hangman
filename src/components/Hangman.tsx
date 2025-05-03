@@ -75,7 +75,7 @@ const Hangman = ({ words }: HangmanProps) => {
   return (
     <div className='flex flex-col items-center space-y-6 p-6 w-[90%] max-w-4xl border-4 border-pink-500 rounded-2xl shadow-lg bg-white/70'>
       <div className='flex justify-around w-full items-center'>
-        <div className="mt-4">
+        <div className="mt-4 min-w-[50%]">
           <p className="text-center text-2xl">
             {Array.from({ length: MAX_WRONG - wrongGuesses }).map((_, i) => (
               <span key={i}>💖 </span>
