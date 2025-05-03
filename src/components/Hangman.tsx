@@ -84,7 +84,7 @@ const Hangman = ({ words }: HangmanProps) => {
           <img src={`miku-0${wrongGuesses + 1}.png`} width={300} />
         </div>
 
-        <div>
+        <div className='min-w-[50%] flex flex-col items-center'>
           <div className='text-2xl'>
             {renderWord()}
           </div>
@@ -99,7 +99,7 @@ const Hangman = ({ words }: HangmanProps) => {
             <button onClick={showHint} className='btn btn-soft btn-secondary btn-sm'>Show Hint</button>
           </div>
 
-          <div className='grid grid-cols-6 gap-2 mt-4'>
+          <div className='grid grid-cols-6 gap-2 mt-4 w-full'>
             {ALPHABET.map((letter) => (
               <button
                 key={letter}
