@@ -34,5 +34,17 @@ export const songs = [
     {
         "title": "Relax",
         "hint": ['Lagu ini dibawakan oleh 3 orang', 'Lagu ini merupakan lagu benefit dari top 3 sousenkyou', 'Lagu ini dibawakan dalam setlist Fly! Team T']
+    },
+    {
+        "title": "Ku tak Pantas Jadi Seorang Pujangga Cinta",
+        "hint": ['Lagu ini merupakan M01', 'Lagu ini masuk kedalam Request Hour 2021', 'Lagu ini identik dengan Fresh Peach']
+    },
+    {
+        "title": "Schoolyard Puppy",
+        "hint": ['Lagu ini merupakan lagu dari setlist aktif saat ini', 'Lagu ini mempunyai 1 peran yang selalu berganti ganti tiap shownya', 'Peran yang selalu berganti ini memakai telinga anjing']
+    }, 
+    {
+        "title": "Tidak boleh pelukan", 
+        "hint": ['Merupakan lagu coupling', 'Sinka menjadi center di lagu ini', 'lagu coupling dari mae shika mukane']
     }
 ];
